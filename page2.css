@@ -1,0 +1,90 @@
+* { box-sizing: border-box; }
+
+@font-face {font-family: jamesstroker; src: url(jamesstroker.ttf);}
+@font-face {font-family: lemonmilkmedium; src: url(lemonmilkmedium.otf);}
+@font-face {font-family: lemonmilkregular; src: url(lemonmilkregular.otf);}
+
+body {			margin:auto;
+				background-image: url(astronautjump2.png);}
+
+main {			background-color: #203354;}
+
+header {		background-image: url(astronaut.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				font-size: 100px;
+				font-family: jamesstroker, "Times New Roman",sans-serif;
+				color: #FFFAFA;
+				padding-top: 35px;
+				padding-bottom: 37px;
+				text-align: center;
+				word-spacing: 10px;}
+
+nav {			font-style: italic bolder;
+			 	font-family: lemonmilkmedium, "Times New Roman",sans-serif;
+				width: 100%;
+	 			text-align: center;
+	 			word-spacing: 50px;}
+
+fieldset {		margin: auto;
+		  		position:center;
+		 		width: 500px;
+	   			height: 500px;
+	   			border: 2px solid black;
+	   			background-color: white ;}
+
+form {			margin-top: 50px;
+				margin-bottom: 30px;}
+
+fieldset {		background-image: url(page2.jpg)}
+
+fieldset h1{	text-align: center;
+				font-family: lemonmilkregular, "Times New Roman",sans-serif;
+				background-color: #203354;
+				color: white;
+				padding-top: 30px;
+				padding: 5px;
+				background-size: 30px;}
+
+table {			font-size: 15px;
+			 	font-family: lemonmilkregular, "Times New Roman",sans-serif;
+				padding-top: 10px;
+				width: 70%;
+			 	margin:auto;}
+
+table th {		text-align: right;
+				height: 20px;	
+				padding: 5px;}
+
+table tr {		text-align: right;
+				height: 20px;
+				vertical-align: center;
+				padding: 5px;}
+
+footer {		text-align: center;
+				word-spacing: 20px;
+				color: white;
+				padding:0.2px;
+				font-size: 10px;
+				font-family: lemonmilkregular, "Times New Roman",sans-serif;
+				background-image: url(nightsky1.jpg);
+				clear: both; }
+
+	.wrapper {	margin:0 auto;
+		 		width: 70%;
+				min-width: 960px; max-width: 960px;
+				background-color: #203354;} 
+
+	.float {	float:right;}
+
+	.navbar {	width: 100%;
+          	  	background-image: url(nightsky1.jpg);
+           	  	overflow: auto;}
+
+ 	.navbar a {	width: 48%;
+ 				float: left;
+          	   	padding: 5px; 
+           	  	color: white;
+           	   	text-decoration:none;
+          	  	font-size: 20px;
+         	   	text-align: center;}
